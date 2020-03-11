@@ -14,6 +14,7 @@
 		ED28C3B72419553C00A992C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28C3B62419553C00A992C7 /* Assets.xcassets */; };
 		ED28C3BA2419553C00A992C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28C3B92419553C00A992C7 /* Preview Assets.xcassets */; };
 		ED28C3BD2419553C00A992C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED28C3BB2419553C00A992C7 /* LaunchScreen.storyboard */; };
+		ED28C3C5241962A600A992C7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28C3C4241962A600A992C7 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ED28C3B92419553C00A992C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED28C3BC2419553C00A992C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED28C3BE2419553C00A992C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28C3C4241962A600A992C7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				ED28C3BE2419553C00A992C7 /* Info.plist */,
 				ED28C3B12419553A00A992C7 /* eGym.xcdatamodeld */,
 				ED28C3B82419553C00A992C7 /* Preview Content */,
+				ED28C3C4241962A600A992C7 /* ProfileView.swift */,
 			);
 			path = eGym;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				ED28C3B32419553A00A992C7 /* eGym.xcdatamodeld in Sources */,
 				ED28C3AE2419553A00A992C7 /* AppDelegate.swift in Sources */,
+				ED28C3C5241962A600A992C7 /* ProfileView.swift in Sources */,
 				ED28C3B52419553A00A992C7 /* ContentView.swift in Sources */,
 				ED28C3B02419553A00A992C7 /* SceneDelegate.swift in Sources */,
 			);

@@ -10,7 +10,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack(alignment: .center, spacing: 20) {
+
+            TextField("usuario@everis.com", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                
+//                .border(Color.green, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                .multilineTextAlignment(.center)
+                
+            SecureField("pasword123", text: /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Value@*/.constant("Apple")/*@END_MENU_TOKEN@*/)
+//                .border(Color.green, width: 1)
+                .multilineTextAlignment(.center)
+                
+            
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Acceder")
+                    .padding()
+                    .multilineTextAlignment(.center)
+                    .cornerRadius(20)
+                    .foregroundColor(Color.white)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.green)
+
+            }
+
+        }
     }
 }
 
